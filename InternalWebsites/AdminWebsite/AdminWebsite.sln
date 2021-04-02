@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminWebsite", "AdminWebsite\AdminWebsite.csproj", "{D23B244F-4BF1-4D5B-8D73-91959D86EDF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C0710D60-467C-48F8-BFA6-1A3195255E5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{9341681E-5CD5-46AA-91C3-AE76CFD06BE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiClients", "ApiClients", "{095B6466-1030-4444-ABE5-2C122F385136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{3849DE4C-C6CB-4C03-A1E5-41F800911FA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0190E689-DC6F-4748-AB5C-06443D2610AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Web.Util", "..\..\..\a195a27d1c96dbc\Assemblies\Web\Util\Roblox.Web.Util\Roblox.Web.Util.csproj", "{0A9397F0-B3A5-40E4-B661-A35E246BC8A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Platform.ErrorModels", "..\..\..\a195a27d1c96dbc\Assemblies\Platform\ErrorModels\Roblox.Platform.ErrorModels\Roblox.Platform.ErrorModels.csproj", "{938F24D8-7E8E-4C15-A74C-A57D852C3FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Web.Assets", "..\..\..\a195a27d1c96dbc\Assemblies\Web\Assets\Roblox.Web.Assets\Roblox.Web.Assets.csproj", "{1A2750C2-4206-4459-A054-FD3658CEA6FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{14F91618-2EBC-43F5-8850-5643FC2AD216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Data.Assets", "..\..\..\a195a27d1c96dbc\Assemblies\Data\Assets\Roblox.Data.Assets\Roblox.Data.Assets.csproj", "{9AE88B9A-81F9-4E9F-B488-ACE1A5C4A25F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Files.Client", "..\..\..\a195a27d1c96dbc\Assemblies\ApiClients\Roblox.Files.Client\Roblox.Files.Client\Roblox.Files.Client.csproj", "{97487640-4AC3-4946-BACF-895B862D9D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http", "Http", "{E3932C0E-993D-4FA4-8C68-73DA56487E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.ClientSettings.Client", "..\..\..\a195a27d1c96dbc\Assemblies\ApiClients\Roblox.ClientSettings.Client\Roblox.ClientSettings.Client\Roblox.ClientSettings.Client.csproj", "{32014987-1144-41BC-8899-89D9F75E392A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Platform.ClientSettings", "..\..\..\a195a27d1c96dbc\Assemblies\Platform\ClientSettings\Roblox.Platform.ClientSettings\Roblox.Platform.ClientSettings.csproj", "{F3C84AD1-7B5F-42D9-8A11-06AB0BDF4A54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D23B244F-4BF1-4D5B-8D73-91959D86EDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23B244F-4BF1-4D5B-8D73-91959D86EDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23B244F-4BF1-4D5B-8D73-91959D86EDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23B244F-4BF1-4D5B-8D73-91959D86EDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9397F0-B3A5-40E4-B661-A35E246BC8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9397F0-B3A5-40E4-B661-A35E246BC8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9397F0-B3A5-40E4-B661-A35E246BC8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9397F0-B3A5-40E4-B661-A35E246BC8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938F24D8-7E8E-4C15-A74C-A57D852C3FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938F24D8-7E8E-4C15-A74C-A57D852C3FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938F24D8-7E8E-4C15-A74C-A57D852C3FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938F24D8-7E8E-4C15-A74C-A57D852C3FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2750C2-4206-4459-A054-FD3658CEA6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2750C2-4206-4459-A054-FD3658CEA6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2750C2-4206-4459-A054-FD3658CEA6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2750C2-4206-4459-A054-FD3658CEA6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE88B9A-81F9-4E9F-B488-ACE1A5C4A25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE88B9A-81F9-4E9F-B488-ACE1A5C4A25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE88B9A-81F9-4E9F-B488-ACE1A5C4A25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE88B9A-81F9-4E9F-B488-ACE1A5C4A25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97487640-4AC3-4946-BACF-895B862D9D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97487640-4AC3-4946-BACF-895B862D9D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97487640-4AC3-4946-BACF-895B862D9D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97487640-4AC3-4946-BACF-895B862D9D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32014987-1144-41BC-8899-89D9F75E392A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32014987-1144-41BC-8899-89D9F75E392A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32014987-1144-41BC-8899-89D9F75E392A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32014987-1144-41BC-8899-89D9F75E392A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C84AD1-7B5F-42D9-8A11-06AB0BDF4A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C84AD1-7B5F-42D9-8A11-06AB0BDF4A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C84AD1-7B5F-42D9-8A11-06AB0BDF4A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C84AD1-7B5F-42D9-8A11-06AB0BDF4A54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D23B244F-4BF1-4D5B-8D73-91959D86EDF3} = {C0710D60-467C-48F8-BFA6-1A3195255E5D}
+		{095B6466-1030-4444-ABE5-2C122F385136} = {9341681E-5CD5-46AA-91C3-AE76CFD06BE6}
+		{3849DE4C-C6CB-4C03-A1E5-41F800911FA9} = {9341681E-5CD5-46AA-91C3-AE76CFD06BE6}
+		{0190E689-DC6F-4748-AB5C-06443D2610AE} = {9341681E-5CD5-46AA-91C3-AE76CFD06BE6}
+		{0A9397F0-B3A5-40E4-B661-A35E246BC8A1} = {0190E689-DC6F-4748-AB5C-06443D2610AE}
+		{938F24D8-7E8E-4C15-A74C-A57D852C3FB9} = {3849DE4C-C6CB-4C03-A1E5-41F800911FA9}
+		{1A2750C2-4206-4459-A054-FD3658CEA6FB} = {0190E689-DC6F-4748-AB5C-06443D2610AE}
+		{14F91618-2EBC-43F5-8850-5643FC2AD216} = {9341681E-5CD5-46AA-91C3-AE76CFD06BE6}
+		{9AE88B9A-81F9-4E9F-B488-ACE1A5C4A25F} = {14F91618-2EBC-43F5-8850-5643FC2AD216}
+		{97487640-4AC3-4946-BACF-895B862D9D18} = {095B6466-1030-4444-ABE5-2C122F385136}
+		{E3932C0E-993D-4FA4-8C68-73DA56487E62} = {9341681E-5CD5-46AA-91C3-AE76CFD06BE6}
+		{32014987-1144-41BC-8899-89D9F75E392A} = {095B6466-1030-4444-ABE5-2C122F385136}
+		{F3C84AD1-7B5F-42D9-8A11-06AB0BDF4A54} = {3849DE4C-C6CB-4C03-A1E5-41F800911FA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {291248DC-CBB1-4B39-A057-30A1ED56229C}
+	EndGlobalSection
+EndGlobal
